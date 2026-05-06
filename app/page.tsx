@@ -98,7 +98,7 @@ export default function HomePage() {
                 boxShadow: '0 0 0 6px rgba(231,76,60,0.18)',
                 flexShrink: 0,
               }} />
-              <span style={{ color: '#E74C3C' }}>live.</span>
+              <span style={{ color: '#E74C3C' }}>Live.</span>
             </span>
           </h1>
           <p className="fade-up-3" style={s.heroSub}>
