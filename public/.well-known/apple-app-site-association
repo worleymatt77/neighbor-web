@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "C9NR5472G7.com.worley77.neighbor",
+        "paths": ["/post/*"]
+      }
+    ]
+  }
+}
