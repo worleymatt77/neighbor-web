@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Neighbor — Your city, live.',
   description: 'Street musicians, pickup games, block parties, acts of kindness — happening right now, near you.',
   icons: {
-    icon: '/favicon.png',
+    icon: '/icon.png',
     apple: '/icon.png',
   },
   openGraph: {
