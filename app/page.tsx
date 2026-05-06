@@ -39,7 +39,7 @@ export default function HomePage() {
       {/* HERO */}
       <section style={s.hero}>
         {/* Floating background pins */}
-        <div style={s.pinsLayer} aria-hidden>
+        <div style={s.pinsLayer} className="pins-layer" aria-hidden>
           {PINS.map((pin, i) => (
             <div key={i} style={{
               position: 'absolute',

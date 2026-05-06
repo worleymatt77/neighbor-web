@@ -49,4 +49,5 @@ body {
 
 @media (max-width: 640px) {
   .hide-mobile { display: none !important; }
+  .pins-layer { display: none !important; }
 }
