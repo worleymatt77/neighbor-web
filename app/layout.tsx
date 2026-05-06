@@ -4,6 +4,10 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Neighbor — Your city, live.',
   description: 'Street musicians, pickup games, block parties, acts of kindness — happening right now, near you.',
+  icons: {
+    icon: '/favicon.png',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: 'Neighbor — Your city, live.',
     description: 'Street musicians, pickup games, block parties, acts of kindness — happening right now, near you.',
