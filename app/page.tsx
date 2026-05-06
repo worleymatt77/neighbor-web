@@ -41,7 +41,7 @@ export default function HomePage() {
         {/* Floating background pins */}
         <div style={s.pinsLayer} className="pins-layer" aria-hidden>
           {PINS.map((pin, i) => (
-            <div key={i} style={{
+            <div key={i} className={`pin-${i}`} style={{
               position: 'absolute',
               top: pin.top, left: pin.left,
               display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6,
@@ -147,8 +147,8 @@ export default function HomePage() {
       <footer style={s.footer}>
         <span style={s.footerLogo}>🌱 Neighbor</span>
         <div style={s.footerLinks}>
-          <a href="https://worleymatt77.github.io/Neighbor-legal/privacy-policy.html" style={s.footerLink}>Privacy</a>
-          <a href="https://worleymatt77.github.io/Neighbor-legal/terms-of-service.html" style={s.footerLink}>Terms</a>
+          <a href="/privacy" style={s.footerLink}>Privacy</a>
+          <a href="/terms" style={s.footerLink}>Terms</a>
         </div>
       </footer>
 

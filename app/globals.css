@@ -49,5 +49,14 @@ body {
 
 @media (max-width: 640px) {
   .hide-mobile { display: none !important; }
-  .pins-layer { display: none !important; }
+
+  /* Reposition pins into safe zones on mobile:
+     top corners (above hero text) and bottom corners (below CTA) */
+  .pin-0 { top: 7%  !important; left: 4%  !important; }
+  .pin-1 { top: 9%  !important; left: 65% !important; }
+  .pin-2 { top: 80% !important; left: 6%  !important; }
+  .pin-3 { top: 82% !important; left: 62% !important; }
+  .pin-4 { display: none !important; }
+  .pin-5 { display: none !important; }
+  .pin-6 { top: 88% !important; left: 36% !important; }
 }
