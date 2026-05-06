@@ -43,7 +43,7 @@ async function getReport(id: string): Promise<Report | null> {
     .from('reports')
     .select('id, category, tag, description, photo_url, neighborhood, created_at, is_live')
     .eq('id', id)
-    .eq('hidden', false)
+    .neq('hidden', true)
     .single();
   return data as Report | null;
 }
