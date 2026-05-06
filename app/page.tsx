@@ -89,7 +89,18 @@ export default function HomePage() {
             <span style={s.liveDot} />
             Live in NYC
           </div>
-          <h1 className="fade-up-2" style={s.heroTitle}>Your city,<br /><span style={{ color: '#E74C3C' }}>live.</span></h1>
+          <h1 className="fade-up-2" style={s.heroTitle}>
+            Your city,<br />
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 16 }}>
+              <span style={{
+                display: 'inline-block', width: 20, height: 20, borderRadius: '50%',
+                backgroundColor: '#E74C3C',
+                boxShadow: '0 0 0 6px rgba(231,76,60,0.18)',
+                flexShrink: 0,
+              }} />
+              <span style={{ color: '#E74C3C' }}>live.</span>
+            </span>
+          </h1>
           <p className="fade-up-3" style={s.heroSub}>
             Street musicians, pickup games, block parties,<br className="hide-mobile" /> acts of kindness — happening right now, near you.
           </p>
