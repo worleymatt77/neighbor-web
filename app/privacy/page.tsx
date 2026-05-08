@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
     <main style={styles.page}>
       <div style={styles.container}>
         <h1 style={styles.h1}>Privacy Policy</h1>
-        <p style={styles.updated}>Last updated: May 6, 2025</p>
+        <p style={styles.updated}>Last updated: May 8, 2026</p>
 
         <p style={styles.p}>
           Neighbor ("we," "our," or "us") is a hyperlocal app for sharing what's happening around you in real time. This Privacy Policy explains what information we collect, how we use it, and your rights.
@@ -44,7 +44,7 @@ export default function PrivacyPolicy() {
         </ul>
 
         <h2 style={styles.h2}>Your Rights</h2>
-        <p style={styles.p}>You can delete your account and all associated data at any time from Settings → Delete Account. You can also contact us at <a href="mailto:mr.mattworley@gmail.com" style={styles.a}>mr.mattworley@gmail.com</a> to request data deletion or a copy of your data.</p>
+        <p style={styles.p}>You can delete your account and all associated data at any time from Settings → Delete Account. You can also contact us at <a href="mailto:hello@getneighbor.app" style={styles.a}>hello@getneighbor.app</a> to request data deletion or a copy of your data.</p>
 
         <h2 style={styles.h2}>Data Retention</h2>
         <p style={styles.p}>Posts are stored until you delete them or delete your account. Location data in push tokens is updated on each app open and is not retained after account deletion.</p>
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
         <p style={styles.p}>We may update this policy as the app evolves. We'll note the date of the last update at the top of this page.</p>
 
         <h2 style={styles.h2}>Contact</h2>
-        <p style={styles.p}>Questions? Email us at <a href="mailto:mr.mattworley@gmail.com" style={styles.a}>mr.mattworley@gmail.com</a>.</p>
+        <p style={styles.p}>Questions? Email us at <a href="mailto:hello@getneighbor.app" style={styles.a}>hello@getneighbor.app</a>.</p>
 
         <div style={styles.footer}>
           <a href="/" style={styles.a}>← Back to Neighbor</a>

@@ -7,7 +7,7 @@ export default function TermsOfService() {
     <main style={styles.page}>
       <div style={styles.container}>
         <h1 style={styles.h1}>Terms of Service</h1>
-        <p style={styles.updated}>Last updated: May 6, 2025</p>
+        <p style={styles.updated}>Last updated: May 8, 2026</p>
 
         <p style={styles.p}>
           Welcome to Neighbor. By using our app or website, you agree to these Terms of Service. Please read them.
@@ -34,7 +34,7 @@ export default function TermsOfService() {
         <p style={styles.p}>Posts are pinned to a location. By posting, you understand that the approximate location of that post will be visible to other users. Do not post content that reveals private addresses or locations in ways that could endanger someone.</p>
 
         <h2 style={styles.h2}>Account</h2>
-        <p style={styles.p}>You are responsible for maintaining the security of your account. Do not share your credentials. Notify us immediately at <a href="mailto:mr.mattworley@gmail.com" style={styles.a}>mr.mattworley@gmail.com</a> if you suspect unauthorized access.</p>
+        <p style={styles.p}>You are responsible for maintaining the security of your account. Do not share your credentials. Notify us immediately at <a href="mailto:hello@getneighbor.app" style={styles.a}>hello@getneighbor.app</a> if you suspect unauthorized access.</p>
 
         <h2 style={styles.h2}>Availability</h2>
         <p style={styles.p}>We do our best to keep Neighbor running, but we can't guarantee uninterrupted service. We may modify or discontinue features at any time.</p>
@@ -46,7 +46,7 @@ export default function TermsOfService() {
         <p style={styles.p}>We may update these Terms as the app evolves. Continued use of Neighbor after changes means you accept the updated Terms.</p>
 
         <h2 style={styles.h2}>Contact</h2>
-        <p style={styles.p}>Questions? Email us at <a href="mailto:mr.mattworley@gmail.com" style={styles.a}>mr.mattworley@gmail.com</a>.</p>
+        <p style={styles.p}>Questions? Email us at <a href="mailto:hello@getneighbor.app" style={styles.a}>hello@getneighbor.app</a>.</p>
 
         <div style={styles.footer}>
           <a href="/" style={styles.a}>← Back to Neighbor</a>
