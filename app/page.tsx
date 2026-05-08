@@ -160,6 +160,7 @@ export default function HomePage() {
         <div style={s.footerLinks}>
           <a href="/privacy" style={s.footerLink}>Privacy</a>
           <a href="/terms" style={s.footerLink}>Terms</a>
+          <a href="/dmca" style={s.footerLink}>DMCA</a>
         </div>
       </footer>
 
